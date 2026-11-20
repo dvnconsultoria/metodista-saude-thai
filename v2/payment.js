@@ -1,0 +1,1 @@
+const course={total:12420,installments:12};const money=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});document.querySelectorAll('[data-price]').forEach(e=>e.textContent=money(course.total/course.installments));document.querySelectorAll('[data-total]').forEach(e=>e.textContent=money(course.total));
